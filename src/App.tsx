@@ -6,6 +6,7 @@ import TodoList from "./components/todolist/todolist.tsx";
 import TimeOfMyLife from "./components/timeofmylife/timeofmylife.tsx";
 import Citation from "./components/citation/citation.tsx";
 import Pokemon from './components/pokemon/pokemon.tsx';
+import BatmanSearch from './components/batman/batman.tsx';
 
 function App() {
 
@@ -51,6 +52,9 @@ function App() {
             </section>
             <section>
                 <Pokemon/>
+            </section>
+            <section>
+                <BatmanSearch/>
             </section>
 
         </>
