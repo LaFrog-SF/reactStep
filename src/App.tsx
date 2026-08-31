@@ -4,6 +4,8 @@ import Counter from './components/counter/counter.tsx'
 import {useState} from "react";
 import TodoList from "./components/todolist/todolist.tsx";
 import TimeOfMyLife from "./components/timeofmylife/timeofmylife.tsx";
+import Citation from "./components/citation/citation.tsx";
+import Pokemon from './components/pokemon/pokemon.tsx';
 
 function App() {
 
@@ -43,6 +45,12 @@ function App() {
             </section>
             <section>
                 <TimeOfMyLife/>
+            </section>
+            <section>
+                <Citation/>
+            </section>
+            <section>
+                <Pokemon/>
             </section>
 
         </>
